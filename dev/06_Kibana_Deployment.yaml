@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: kibana-logging
-  namespace: efklog
+  namespace: test13
   labels:
     k8s-app: kibana-logging
     addonmanager.kubernetes.io/mode: Reconcile
