@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ServiceAccount
 metadata:
   name: fluentd-es
-  namespace: efklog
+  namespace: test13
   labels:
     k8s-app: fluentd-es
     addonmanager.kubernetes.io/mode: Reconcile
